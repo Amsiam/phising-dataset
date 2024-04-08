@@ -26,10 +26,6 @@ def main():
         print(data)
         datas.append(data)
 
-        i += 1
-        if i > 3:
-            break
-
     newData = pd.DataFrame(
         datas,
         columns=[
